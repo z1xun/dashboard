@@ -1,10 +1,10 @@
 import React from "react";
-import Title from "../components/title/Title";
+import Sound from "../components/title/Sound";
 
 const Home = () => {
     return (
         <div>
-            <Title title="홈" desc="홈입니다~" />
+            <Sound title="홈" desc="홈입니다" />
         </div>
     );
 };

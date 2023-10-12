@@ -1,10 +1,11 @@
 import React from "react";
-import Title from "../../components/title/Title";
+
+import Sound from "../../components/title/Sound";
 
 const About = () => {
     return (
         <div>
-            <Title title="소개" desc="소개입니다~" />
+            <Sound title="소개" desc="소개입니다" />
         </div>
     );
 };
