@@ -1,10 +1,10 @@
 import React from "react";
+import Title from "../components/title/Title";
 
 const Home = () => {
     return (
         <div>
-            <h2>home</h2>
-            <p>이것은 홈이여라</p>
+            <Title title="홈" desc="홈입니다~" />
         </div>
     );
 };
